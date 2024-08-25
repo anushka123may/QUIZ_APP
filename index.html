@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="timer">Time Left: <span id="time">60</span> seconds</div>
+        <div class="quiz-container" id="quiz">
+            <div id="quiz-header">
+                <h1>General Knowledge Quiz</h1> <!-- Quiz Title -->
+            </div>
+            <form id="quiz-form">
+                <ul id="quiz-options">
+                    <!-- Questions will be dynamically generated here -->
+                </ul>
+                <button type="button" id="prev" style="display: none;">Previous Page</button>
+                <button type="button" id="next">Next Page</button>
+                <button type="submit" id="submit" style="display: none;">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

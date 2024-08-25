@@ -1,0 +1,22 @@
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+h1{
+   color: blue;
+   box-shadow: #b30000;
+}
+#timer{
+color: red;
+}
+
